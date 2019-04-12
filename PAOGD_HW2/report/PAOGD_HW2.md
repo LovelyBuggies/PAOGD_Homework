@@ -78,11 +78,13 @@
 
 ![connect parents](https://ws2.sinaimg.cn/large/006tNc79ly1g1znhizqvgj31d80u01fs.jpg)
 
-小人本身就是一个obj，所以无需再进行整体连接。为了简单起见，设置为自动权重。`control+tab`姿态模式下，`control+P`进行骨架形变，然后从弹出的小框内选择自动权重。当然也可以手动调整权重：物体模式下，选中骨架，再选中stickman，打开权值绘制模式，我们就可以绘制权重了。调整笔刷大小和颜色，蓝色表示无影响，红色表示影响力为1。
+小人本身就是一个obj，所以无需再进行整体连接。为了简单起见，设置为自动权重。`control+tab`姿态模式下，`control+P`进行骨架形变，然后从弹出的小框内选择自动权重。
 
 ![deform](https://ws4.sinaimg.cn/large/006tNc79ly1g1znwedzvmj31d80u0qml.jpg)
 
 ![automatic weights](https://ws3.sinaimg.cn/large/006tNc79ly1g1znxzk7xzj31d80u0tsz.jpg)
+
+当然也可以手动调整权重：物体模式下，选中骨架，再选中stickman，打开权值绘制模式，我们就可以绘制权重了。调整笔刷大小和颜色，蓝色表示无影响，红色表示影响力为1。
 
 ![weight paint](https://ws2.sinaimg.cn/large/006tNc79ly1g1zta2xv0jj31d80u0ke4.jpg)
 
@@ -118,15 +120,17 @@
 
 ![action clip](https://ws2.sinaimg.cn/large/006tNc79ly1g1zpfkveaxj31d80u0k5m.jpg)
 
-制作动画的最后一个环节就是为了让动画能够渲染，我们必须要合理地摆放控制镜头。毕竟小人是这个动画的主角，为了让相机时时刻刻对准小人，需要相机跟踪功能。首先新建一个相机。打开相机约束，设置相机跟踪的相关功能，设置成功之后镜头对准目标，有一条虚线，镜头对准target——我设置的骨架。当然相机也可以设置轨道——建立和circle的依附关系，原理和上面一样，不再赘述。
+制作动画的最后一个环节就是为了让动画能够渲染，我们必须要合理地摆放控制镜头。毕竟小人是这个动画的主角，为了让相机时时刻刻对准小人，需要相机跟踪功能。首先新建一个相机。
 
 ![new camera](https://ws2.sinaimg.cn/large/006tNc79ly1g1zsp5it5tj31d80u0x17.jpg)
+
+打开相机约束，设置相机跟踪的相关功能，设置成功之后镜头对准目标，有一条虚线，镜头对准target——我设置的骨架。当然相机也可以设置轨道——建立和circle的依附关系，原理和上面一样，不再赘述。
 
 ![target projection](https://ws4.sinaimg.cn/large/006tNc79ly1g1zstakbe3j31e10u07ql.jpg)
 
 ![protagonist](https://ws4.sinaimg.cn/large/006tNc79ly1g1zsvw2dvij31d80u0avo.jpg)
 
-这样小人行走动画就制作好了！大功告成，简单渲染了一下。虽然走地有点丑，但是总体效果还是令人满意的😄！
+这样小人行走动画就制作好了！大功告成，简单渲染了一下。虽然走地有点丑，但是总体效果还是差强人意的😄！
 
 ![effect](https://ws4.sinaimg.cn/large/006tNc79ly1g1zqavv3r2g30mk0awgvf.gif)
 
