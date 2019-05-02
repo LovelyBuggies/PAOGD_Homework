@@ -1,5 +1,0 @@
-/Users/nino/PAOGD_HW3/build/CMakeFiles/rebuild_cache.dir
-/Users/nino/PAOGD_HW3/build/CMakeFiles/edit_cache.dir
-/Users/nino/PAOGD_HW3/build/CMakeFiles/PAOGD_HW3.dir
-/Users/nino/PAOGD_HW3/build/CMakeFiles/GLAD.dir
-/Users/nino/PAOGD_HW3/build/CMakeFiles/STB_IMAGE.dir

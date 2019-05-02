@@ -10,13 +10,13 @@
 #include <learnopengl/camera.h>
 #include <learnopengl/model.h>
 #include <iostream>
-bool j = 0;
-bool k = 0;
-bool l = 0;
-float ftranslate = 0.0f;
+bool j = false;
+bool k = false;
+bool l = false;
+float ft = 0.0f;
 float fs = 0.1f;
-bool i = 1;
-bool o = 1;
+bool i = true;
+bool o = true;
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
@@ -129,14 +129,14 @@ int main()
         
         // translation option
         if(k == true){
-            if(ftranslate < 12.0f && i == true){
-                model = glm::translate(model, glm::vec3(ftranslate, 0.0f, 0.0f));
-                ftranslate += 0.005f;        
+            if(ft < 12.0f && i == true){
+                model = glm::translate(model, glm::vec3(ft, 0.0f, 0.0f));
+                ft += 0.005f;        
             } else{
                 i = false;
-                model = glm::translate(model, glm::vec3(ftranslate, 0.0f, 0.0f));
-                ftranslate -= 0.005f;
-                if(ftranslate < -12.0f)
+                model = glm::translate(model, glm::vec3(ft, 0.0f, 0.0f));
+                ft -= 0.005f;
+                if(ft < -12.0f)
                     i=true;        
             }
         }
