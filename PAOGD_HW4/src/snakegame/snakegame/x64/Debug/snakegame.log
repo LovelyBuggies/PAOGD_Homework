@@ -1,0 +1,25 @@
+﻿生成启动时间为 2019/5/27 14:57:32。
+     1>项目“C:\Users\Scars\Desktop\snakegame\snakegame\snakegame.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Scars\Desktop\snakegame\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/ /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt src\draw\Draw.cpp src\main.cpp src\object\Block.cpp src\object\Snake.cpp
+         Block.cpp
+     1>c:\users\scars\desktop\snakegame\snakegame\src\object\block.cpp(50): warning C4244: “参数”: 从“float”转换到“GLubyte”，可能丢失数据
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         Snake.cpp
+         main.cpp
+         Draw.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Scars\Desktop\snakegame\x64\Debug\snakegame.exe" /INCREMENTAL /NOLOGO C:\Users\Scars\Desktop\snakegame\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/x64\glew32.lib C:\Users\Scars\Desktop\snakegame\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/x64\glfw3dll.lib C:\Users\Scars\Desktop\snakegame\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/x64\freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\Scars\Desktop\snakegame\x64\Debug\snakegame.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Scars\Desktop\snakegame\x64\Debug\snakegame.lib" /MACHINE:X64 x64\Debug\Draw.obj
+         x64\Debug\main.obj
+         x64\Debug\Block.obj
+         x64\Debug\Fruit.obj
+         x64\Debug\Snake.obj
+         x64\Debug\Stone.obj
+         x64\Debug\sys.obj
+         snakegame.vcxproj -> C:\Users\Scars\Desktop\snakegame\x64\Debug\snakegame.exe
+     1>已完成生成项目“C:\Users\Scars\Desktop\snakegame\snakegame\snakegame.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.10
