@@ -1,0 +1,5 @@
+/home/lin/Desktop/LearnOpenGL/cmake/CMakeFiles/edit_cache.dir
+/home/lin/Desktop/LearnOpenGL/cmake/CMakeFiles/rebuild_cache.dir
+/home/lin/Desktop/LearnOpenGL/cmake/CMakeFiles/STB_IMAGE.dir
+/home/lin/Desktop/LearnOpenGL/cmake/CMakeFiles/1.RetroSnaker__1.RetroSnaker.dir
+/home/lin/Desktop/LearnOpenGL/cmake/CMakeFiles/GLAD.dir
