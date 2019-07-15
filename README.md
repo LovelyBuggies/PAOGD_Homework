@@ -15,18 +15,20 @@
 ## HW2
 
 实现一个简单的行走循环动画。
+
 ![target](https://ws4.sinaimg.cn/large/006tNc79ly1g1zm621q06g30go09e1ky.gif)
 
 ## HW3
 
 试编写一个程序,实现模型自身的旋转,平移,缩放。
-![输入图片说明](https://gitee.com/uploads/images/2019/0424/154724_300bb1ec_1194012.png"屏幕截图.png")
+
+![](https://i.loli.net/2019/07/15/5d2c9ee6ba5ea26297.png)
 
 ## HW4
 
 用OpenGL实现一个贪吃蛇游戏。
 
-![pic](https://upload-images.jianshu.io/upload_images/3220531-69c2d2344a3dd1d4.gif?imageMogr2/auto-orient/strip)
+![](https://i.loli.net/2019/07/15/5d2c9f6a8d54c73768.png)
 
 ## HW5
 
